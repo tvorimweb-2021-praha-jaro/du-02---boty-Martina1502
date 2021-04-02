@@ -5,23 +5,125 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
 }
 
-/*
- BARVY
- svetle sede pozadi      #f5f5f5
- tmavsi seda             #959595
- barevny prechod nahore  #06d7c1
- barevny prechod dole    #50cc49
- zelena cara             #06d7c1
- oranzova                #f15f42
+.zbozi {
+    width: 670px;
+    height: 440px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #959595;
+}
 
- PISMO
- Rubik - pouzite rezy pisma regular 400 a medium 500
- https://fonts.google.com/specimen/Rubik
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    color: white;
+    border-radius: 30px 0 0 30px;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+}
 
- KULATE ROHY
- border-radius: 30px;
-*/
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0 10px 0;
+}
 
-/* ----- zde zacni psat vlastni css ----- */
+.bota{
+    position: relative;
+    left: -110px;
+
+}
+
+.cenovka {
+    text-align: right;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.detaily {
+    background-color: white;
+    border-radius: 0 30px 30px 0;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    top: -440px;
+    left: 335px;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.produkt {
+    color: #959595;
+    margin: 0;
+}
+
+.popis {
+    margin: 0; 
+    padding: 30px 0;
+    border-bottom: 2px solid #06d7c1;
+}
+
+.parametr {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+.velikosti {
+    padding: 0;
+}
+
+.velikosti li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 2px solid;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+}
+
+.tlacitko {
+    text-transform: uppercase;
+    background-color: #f15f42;
+    width: 130px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
